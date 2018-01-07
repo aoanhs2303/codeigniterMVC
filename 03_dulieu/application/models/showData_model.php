@@ -53,6 +53,7 @@ class showData_model extends CI_Model {
 
 		$this->db->update('sim', $dulieuUpdate);
 	}
+	
 }
 
 /* End of file showData_model.php */

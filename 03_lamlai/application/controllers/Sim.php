@@ -57,7 +57,6 @@ class Sim extends CI_Controller {
 		if($this->addSim_model->deleteById($id)) {
 			$this->load->view('thanhcong_view');
 		}
-
 	}
 
 }
